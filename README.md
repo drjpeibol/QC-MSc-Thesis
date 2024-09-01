@@ -1,20 +1,26 @@
-# Master's Thesis: Quantum Simulation of Physical Problems Using the Ising-QUBO Framework
+# Master's Thesis: Quantum Simulation of Physical Problems Using the Ising-QUBO Framework: A Focus on Hydrogen Molecule Simulation
 
-This repository contains the code and documentation associated with the Master's Thesis titled "Quantum Simulation of Physical Problems Using the Ising-QUBO Framework".
+This repository contains the code and documentation associated with the Master's Thesis titled **Quantum Simulation of Physical Problems Using the Ising-QUBO Framework: A Focus on Hydrogen Molecule Simulation**.
 
 ## Project Description
 
-The aim of this work is to explore and develop quantum simulation techniques to solve physical problems using the Ising-QUBO framework. The Ising-QUBO framework will be implemented in Python and applied to a series of specific physical problems to study its behavior and effectiveness compared to classical methods.
+The objective of this work is to illustrate how quantum computing is a highly useful tool for solving problems derived from the Ising model or QUBO-type problems. These types of problems are of great interest because, in addition to appearing in numerous fields such as logistics, economics, chemistry, or materials science, they are NP-hard problems when approached with classical computing, making them unsolvable exactly as the problem size grows .
+
+Specifically, in this work, we will focus on how this framework allows us to tackle problems related to the characterization of molecular systems. These types of systems have different characteristics that we can model and simulate using quantum optimization algorithms and the Ising-QUBO formulation.
+
+- Optimization of molecular geometry
+- Search for the electronic configuration of a molecule
+- Obtaining the ground state energy of a certain molecule
+
+With these problems on the table, we will detail the physics that defines them and make use of the Ising-QUBO framework and the VQE algorithm to implement a computational solution to these problems. For this, we will use [Pennylane](https://pennylane.ai/), the software for programming quantum algorithms developed by the company [Xanadu](https://xanadu.ai/).
+
 
 ## Repository Structure
 
 - `docs` Contains documentation related to the project, such as the final thesis report and other relevant documents.
-- `src` Here lies the source code of the project, including the implementation of the Ising-QUBO framework and specific simulations.
-- `data`: Contains the input data required for simulations.
 - `notebooks`: Jupyter Notebooks for data analysis and visualization.
-- `tests`: Unit tests and integration tests to ensure code quality.
 - `results`: Simulation results.
-- `requirements`.txt: File listing Python dependencies required to run the project.
+- `requirements.txt`: File listing Python dependencies required to run the project.
 - `LICENSE`: License under which the project is distributed.
 
 ## Installation Requirements
@@ -30,10 +36,9 @@ To use this project, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies (see "Installation Requirements").
-3. Explore the source code in the `src` directory.
-4. Run simulations using the input data in the `data` directory.
-5. Analyze the results in the `results` directory.
-6. Refer to the documentation in the `docs` directory for more details about the project and its operation.
+3. Explore the example code in the `notebooks` directory.
+4. Analyze the results in the `results` directory.
+5. Refer to the documentation in the `docs` directory for more details about the project and its operation.
 
 ## Contribution
 
