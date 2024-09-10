@@ -1,10 +1,10 @@
-# Master's Thesis: Quantum Simulation of Physical Problems Using the Ising-QUBO Framework: A Focus on Hydrogen Molecule Simulation
+# Master's Thesis: Quantum Simulation of Physical Problems: A Focus on Hydrogen Molecule Simulation
 
 This repository contains the code and documentation associated with the Master's Thesis titled **Quantum Simulation of Physical Problems Using the Ising-QUBO Framework: A Focus on Hydrogen Molecule Simulation**.
 
 ## Project Description
 
-The objective of this work is to illustrate how quantum computing is a highly useful tool for solving problems derived from the Ising model or QUBO-type problems. These types of problems are of great interest because, in addition to appearing in numerous fields such as logistics, economics, chemistry, or materials science, they are NP-hard problems when approached with classical computing, making them unsolvable exactly as the problem size grows .
+The objective of this work is to illustrate how quantum computing is a highly useful tool for solving optimization problems. These types of problems are of great interest because, in addition to appearing in numerous fields such as logistics, economics, chemistry, or materials science, they are NP-hard problems when approached with classical computing, making them unsolvable exactly as the problem size grows .
 
 Specifically, in this work, we will focus on how this framework allows us to tackle problems related to the characterization of molecular systems. These types of systems have different characteristics that we can model and simulate using quantum optimization algorithms and the Ising-QUBO formulation.
 
