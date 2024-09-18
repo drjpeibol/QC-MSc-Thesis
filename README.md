@@ -1,6 +1,6 @@
 # Master's Thesis: Quantum Simulation of Physical Problems: A Focus on Hydrogen Molecule Simulation
 
-This repository contains the code and documentation associated with the Master's Thesis titled **Quantum Simulation of Physical Problems Using the Ising-QUBO Framework: A Focus on Hydrogen Molecule Simulation**.
+This repository contains the code and documentation associated with the Master's Thesis titled **Quantum Simulation of Physical Problems: A Focus on Hydrogen Molecule Simulation**.
 
 ## Project Description
 
